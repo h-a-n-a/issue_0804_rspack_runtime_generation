@@ -1,0 +1,21 @@
+{
+  "name": "rspack-react-starter",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rspack serve",
+    "build": "rspack build",
+    "build:w": "webpack --mode production -c rspack.config.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-intersection-observer": "^9.5.2",
+    "webpack": "^5.88.2"
+  },
+  "devDependencies": {
+    "@rspack/cli": "latest",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8"
+  }
+}
